@@ -158,3 +158,66 @@ span{
 .message-button:hover {
     background-color: #b71c1c; /* Darker red on hover */
 }
+
+
+.quiz-container {
+    margin: 50px auto;
+    width: 80%;
+    max-width: 600px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+h1 {
+    color: #8B0000; /* Maroon Red */
+}
+
+.question {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #8B0000; /* Maroon Red */
+    color: #fff;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #600000; /* Darker Maroon Red */
+}
+
+.hidden {
+    display: none;
+}
+
+#quiz-results {
+    margin-top: 20px;
+}
+
+#recommendations {
+    list-style: none;
+    padding: 0;
+    font-size: 18px;
+    color: #333;
+}
+
+
+

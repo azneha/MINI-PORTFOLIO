@@ -44,8 +44,36 @@
         <div class="experience-item">
             <h3>Data Science Intern : Coincent</h3>
             <p>had the opportunity to apply Python extensively to solve real-world problems. Also , worked on projects that involved collecting, cleaning, and analyzing data to derive valuable insights.Python's libraries like NumPy and pandas helped preprocess data, while machine learning algorithms were implemented .Throughout the internship, I gained proficiency in Python's data science libraries, honed my problem-solving skills.</p>
-       
+            </div>
+                
+            <div class="quiz-container">
+                <h1>Which of My Projects Should You Explore?</h1>
+                <form id="quiz-form">
+                    <div class="question">
+                        <label for="question1">What type of project are you interested in?</label>
+                        <select id="question1" name="question1">
+                            <option value="web">Web d</option>
+                            <option value="data">Data Science and ML</option>
+                            <option value="design">Deep learning and NLP</option>
+                            <option value="SQL">SQL and major projects</option>
+                        </select>
+                    </div>
+            <div class="question">
+                <label for="question2">What is your preferred project size?</label>
+                <select id="question2" name="question2">
+                    <option value="small">Small and Simple</option>
+                    <option value="medium">Medium and Intermediate</option>
+                    <option value="large">Large and Complex</option>
+                </select>
+            </div>
+            <button type="button" onclick="submitQuiz()">Submit</button>
+        </form>
+        <div id="quiz-results" class="hidden">
+            <h2>Recommended Projects for You:</h2>
+            <ul id="recommendations"></ul>
+        </div>
     </div>
+    <script src="script.js"></script>
     <!-- Message Me Section -->
 <div id="message" class="message-section">
     <h2>Get in touch with me!</h2>
@@ -55,3 +83,4 @@
 
 </body>
 </html>
+
