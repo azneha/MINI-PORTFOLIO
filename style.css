@@ -83,26 +83,37 @@ span{
     left:45%;
 }
 @media screen and (max-width: 768px) {
-nav{
+    nav {
         flex-direction: column;
         align-items: center;
-}
+    }
 
-nav ul li{
-        margin: 20px 0;
-}
+    nav ul {
+        padding: 0;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
 
     .detail {
         margin-left: 0;
         text-align: center;
+        padding: 20px;
     }
 
     .detail h1 {
         font-size: 28px;
+        margin-bottom: 20px;
+    }
+
+    .detail a {
+        display: block;
+        margin: 20px auto;
     }
 
     .image {
-        width: 70%;
+        width: 80%;
         height: auto;
         position: relative;
         right: 0;
@@ -118,6 +129,15 @@ nav ul li{
 }
 
 @media screen and (max-width: 480px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 15px 0;
+    }
+
     .detail h1 {
         font-size: 24px;
     }
