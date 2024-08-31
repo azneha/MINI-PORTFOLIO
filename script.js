@@ -15,7 +15,7 @@ function submitQuiz() {
     } else if (question1 === 'design') {
         projects = ['Uber Insights Project'];
     } else if (question1 === 'SQL') {
-            projects = ['Client Sales Manager Dashboard','Uber Insights Project','Zomato Queries'];
+            projects = ['Client Sales Manager Dashboard','Uber Insights Hub','Zomato Queries'];
     }   
     // Display recommendations
     projects.forEach(project => {
